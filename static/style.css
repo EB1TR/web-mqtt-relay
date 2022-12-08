@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    background-color: black;
+    color: burlywood;
+}
+#contenor {
+    margin: 0px auto 0px auto;
+}
+.tablestn {
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.spanry {
+    border: 1px solid rgba(143, 143, 143, 0.8);
+    text-align: center;
+    line-height: 27px;
+    display: inline-block;
+    background-color: rgba(255,0,0,0.2);
+    color: rgb(255, 255, 255);
+    width: 70px;
+    height: 25px;
+    border-radius: 3px;
+}
+
+.spanoff {
+    border: 1px solid rgba(255,0,0,0.8);
+    background-color: rgba(255,0,0,0.2);
+    color: rgba(255,0,0,1);
+}
+
+.spanon {
+    border: 1px solid rgba(0,200,0,0.8);
+    background-color: rgba(0,255,0,0.1);
+    color: rgba(0,200,0,1);
+}
+
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-o-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+.FinFout {
+   -webkit-animation: flickerAnimation 1s infinite;
+   -moz-animation: flickerAnimation 1s infinite;
+   -o-animation: flickerAnimation 1s infinite;
+    animation: flickerAnimation 1s infinite;
+}
