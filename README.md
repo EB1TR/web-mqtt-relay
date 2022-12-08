@@ -16,7 +16,7 @@ sudo pip install --upgrade pip<br>
 sudo pip install docker-compose<br>
 
 ### Clonación del repositorio
-git clone https://github.com/EB1TR/py-antena-ctrl.git
+git clone https://github.com/EB1TR/web-mqtt-relay.git
 
 ### Construcción de las imágenes de Docker y arranque
 cd /home/pi/py-antena-ctrl<br>
