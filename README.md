@@ -19,7 +19,7 @@ sudo pip install docker-compose<br>
 git clone https://github.com/EB1TR/web-mqtt-relay.git
 
 ### Construcción de las imágenes de Docker y arranque
-cd /home/pi/py-antena-ctrl<br>
+cd /home/pi/web-mqtt-relay.git<br>
 docker-compose build<br>
 docker-compose up -d<br>
 
